@@ -1,2 +1,6 @@
-# VoiceAssistant.py
-A voice assistant using PYcharm IDE and python language. Functions is perform tasks that will respond to the user, tell the time, date and weather situation. Open stored folder
+import pyttsx3 as p
+
+engine = p.init()
+
+engine.say("Hello World. my name is Mela")
+engine.runAndWait()
